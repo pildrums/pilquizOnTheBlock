@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.3e584539.js",
+    "static/media/bezos.jpg": "/static/media/bezos.e27faad8f96a4e2ba921.jpg",
+    "static/media/timemachine.jpg": "/static/media/timemachine.4b5f231b372d10930afa.jpg",
+    "static/media/kimbal.jpg": "/static/media/kimbal.b0fe15e9950ffd74afe8.jpg",
+    "static/media/cover.jpg": "/static/media/cover.acab0a295036ddcaf19d.jpg",
+    "static/media/elon.jpg": "/static/media/elon.04c18389e53922eb5cad.jpg",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.3e584539.js.map": "/static/js/main.3e584539.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3e584539.js"
+  ]
+}
