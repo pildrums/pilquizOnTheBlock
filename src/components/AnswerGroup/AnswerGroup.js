@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { QUIZ } from '../../constants';
-import Button from '../Button/Button';
+import { QUIZ } from 'constants';
+import Button from 'components/Button/Button';
 
 const AnswerGroup = ({ current, onAnswer }) => {
   return (

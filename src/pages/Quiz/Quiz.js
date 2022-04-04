@@ -1,12 +1,12 @@
 // modules
 import { useState } from 'react';
-import { QUIZ } from '../../constants';
+import { QUIZ } from 'constants';
 import { useNavigate } from 'react-router-dom';
 
 // components
-import Container from '../../components/Container/Container';
-import AnswerGroup from '../../components/AnswerGroup/AnswerGroup';
-import QuestionSection from '../../components/QuestionSection/QuestionSection';
+import Container from 'components/Container/Container';
+import AnswerGroup from 'components/AnswerGroup/AnswerGroup';
+import QuestionSection from 'components/QuestionSection/QuestionSection';
 
 const Quiz = ({setScore}) => {
   const [current, setCurrent] = useState(0);

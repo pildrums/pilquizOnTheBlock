@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import theme from './theme';
-import Main from './pages/Main/Main';
-import Quiz from './pages/Quiz/Quiz';
-import Loading from './pages/Loading/Loading';
-import Result from './pages/Result/Result';
-import { QUIZ } from './constants';
+import theme from 'theme';
+import Main from 'pages/Main/Main';
+import Quiz from 'pages/Quiz/Quiz';
+import Loading from 'pages/Loading/Loading';
+import Result from 'pages/Result/Result';
+import { QUIZ } from 'constants';
 
 const App = () => {
   const [score, setScore] = useState(0);
