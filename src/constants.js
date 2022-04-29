@@ -2,7 +2,7 @@ const QUIZ = [
   {
     id: 1,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img1.jpg',
+    img: 'assets/images/img1.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -13,7 +13,7 @@ const QUIZ = [
   {
     id: 2,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img2.jpg',
+    img: 'assets/images/img2.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -24,7 +24,7 @@ const QUIZ = [
   {
     id: 3,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img3.jpg',
+    img: 'assets/images/img3.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -35,7 +35,7 @@ const QUIZ = [
   {
     id: 4,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img4.jpg',
+    img: 'assets/images/img4.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -46,7 +46,7 @@ const QUIZ = [
   {
     id: 5,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img5.jpg',
+    img: 'assets/images/img5.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -57,7 +57,7 @@ const QUIZ = [
   {
     id: 6,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img6.jpg',
+    img: 'assets/images/img6.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -68,7 +68,7 @@ const QUIZ = [
   {
     id: 7,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img7.jpg',
+    img: 'assets/images/img7.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -79,7 +79,7 @@ const QUIZ = [
   {
     id: 8,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img8.jpg',
+    img: 'assets/images/img8.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -90,7 +90,7 @@ const QUIZ = [
   {
     id: 9,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img9.jpg',
+    img: 'assets/images/img9.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
@@ -101,7 +101,7 @@ const QUIZ = [
   {
     id: 10,
     question: '다음은 어떤 동물 일까용?',
-    img: 'assets/imgs/img10.jpg',
+    img: 'assets/images/img10.jpg',
     answer: [
       { text: '표범', isCorrect: false },
       { text: '치타', isCorrect: false },
