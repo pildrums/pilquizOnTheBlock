@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import styled, { ThemeContext } from 'styled-components';
 import GridLoader from 'react-spinners/GridLoader';
 
+// react-spinners 설치
+// https://github.com/davidhu2000/react-spinners
 const Spinner = () => {
   const themeContext = useContext(ThemeContext);
   const color = themeContext.primaryColor100;

@@ -1,39 +1,40 @@
 import React from 'react';
 import styled from 'styled-components';
 // asset
-import elon from '../../assets/images/elon.jpg';
-import kimbal from '../../assets/images/kimbal.jpg';
-import bezos from '../../assets/images/bezos.jpg';
-import timemachine from '../../assets/images/timemachine.jpg';
+// import elon from 'assets/images/elon.jpg';
+// import kimbal from 'assets/images/kimbal.jpg';
+// import bezos from 'assets/images/bezos.jpg';
+// import timemachine from 'assets/images/timemachine.jpg';
 
 // components
-import SocialButtonGroup from '../SocialButtonGroup/SocialButtonGroup';
+import SocialButtonGroup from 'components/SocialButtonGroup/SocialButtonGroup';
 
-const RESULT = {
-  elon: {
-    title: '일론 머스크',
-    src: elon
-  },
-  kimbal: {
-    title: '킴벌 머스크',
-    src: kimbal
-  },
-  bezos: {
-    title: '제프 베조스',
-    src: bezos
-  },
-  timemachine: {
-    title: '과거에서 온 사람',
-    src: timemachine
-  },
-};
+// const RESULT = {
+//   elon: {
+//     title: '일론 머스크',
+//     src: elon
+//   },
+//   kimbal: {
+//     title: '킴벌 머스크',
+//     src: kimbal
+//   },
+//   bezos: {
+//     title: '제프 베조스',
+//     src: bezos
+//   },
+//   timemachine: {
+//     title: '과거에서 온 사람',
+//     src: timemachine
+//   },
+// };
 
-const ResultSection = ({character}) => {
+const ResultSection = ({character, convertedScore}) => {
   return (
     <>
-      <SectionTitle>당신은 혹시?</SectionTitle>
-      <StyledImage src={RESULT[character].src} />
-      <ResultTitle>{RESULT[character].title}</ResultTitle>
+      <SectionTitle>당신은 점수는?</SectionTitle>
+      {/* <StyledImage src={RESULT[character].src} /> */}
+      {/* <ResultTitle>{RESULT[character].title}</ResultTitle> */}
+      <ResultTitle>{convertedScore}</ResultTitle>
       <SocialButtonGroup />
     </>
   );

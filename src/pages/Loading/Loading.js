@@ -2,29 +2,29 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 
-import Container from '../../components/Container/Container';
-import Spinner from '../../components/Spinner/Spinner';
+import Container from 'components/Container/Container';
+import Spinner from 'components/Spinner/Spinner';
 
-const onCharacter = (score) => {
-  let char;
-  if (score > 75) {
-    char = 'elon';
-  } else if (score > 50) {
-    char = 'kimbal';
-  } else if (score > 25) {
-    char = 'bezos';
-  } else {
-    char = 'timemachine';
-  }
-  return char;
-}
+// const onCharacter = (score) => {
+//   let char;
+//   if (score > 75) {
+//     char = 'elon';
+//   } else if (score > 50) {
+//     char = 'kimbal';
+//   } else if (score > 25) {
+//     char = 'bezos';
+//   } else {
+//     char = 'timemachine';
+//   }
+//   return char;
+// }
 
 const Loading = ({ convertedScore }) => {
   const [title, setTitle] = useState("결과 분석중");
 
   const navigate = useNavigate();
 
-  const character = onCharacter(convertedScore);
+  // const character = onCharacter(convertedScore);
 
   useEffect(() => {
     const id = setTimeout(() => {
@@ -34,8 +34,8 @@ const Loading = ({ convertedScore }) => {
   }, [title]);
 
   useEffect(() => {
-    setTimeout(() => navigate(`/result/${character}`), 2700);
-  }, [navigate, character]);
+    setTimeout(() => navigate(`/result`), 2700);
+  }, [navigate]);
 
   return (
     <Container>

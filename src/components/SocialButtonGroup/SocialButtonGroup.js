@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import { FacebookShareButton, FacebookIcon, TwitterShareButton, TwitterIcon } from "react-share";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
-import kakao from '../../assets/images/kakao.png';
+// import kakao from 'assets/images/kakao.png';
 
+// react-share
 const SocialButtonGroup = () => {
   const currentUrl = window.location.href;
   return (
@@ -20,9 +21,9 @@ const SocialButtonGroup = () => {
         <CopyToClipboard text={currentUrl}>
           <URLShareButton>URL</URLShareButton>
         </CopyToClipboard>
-        <KakaoShareButton>
+        {/* <KakaoShareButton>
           <KakaoIcon src={kakao} />
-        </KakaoShareButton>
+        </KakaoShareButton> */}
       </GridContainer>
     </FlexContainer>
   );

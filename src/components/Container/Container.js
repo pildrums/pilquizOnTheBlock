@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const Container = ({children}) => {
+const Container = ({ children }) => {
   return (
     <FlexBox>
       <ContainerWrapper>{children}</ContainerWrapper>

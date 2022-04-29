@@ -2,16 +2,16 @@
 import styled from "styled-components";
 
 // components
-import Container from "../../components/Container/Container";
-import Button from "../../components/Button/Button";
+import Container from "components/Container/Container";
+import Button from "components/Button/Button";
 
 // etc.
-import cover from '../../assets/images/cover.jpg';
+import cover from 'assets/images/img0.png';
 
 const Main = () => {
   return (
     <Container>
-      <Title>필퀴즈 온더 블록</Title>
+      <Title>애니멀 퀴즈 온더 블록</Title>
       <SubTitle>
         나는 일론머스크에 대해 얼마나 알고 있을까?
       </SubTitle>
@@ -20,6 +20,7 @@ const Main = () => {
         2021년 6월 프론트엔드 개발자 필드럼의 도지코인 200만원 중
         170만원을 나락으로 보내버린 일론머스크에 대해 얼마나 알고 계신가요?
       </Text>
+      {/* to를 props에 작성 -> Button 컴포넌트에 to 전달 */}
       <Button to="/quiz">필퀴즈? Yes!</Button>
     </Container>
   );
